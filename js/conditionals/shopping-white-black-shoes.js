@@ -1,15 +1,15 @@
-const preferedColorWhite = 'white'
-const preferedColorBlack = 'black'
+const preferedColorWhite = 'białe'
+const preferedColorBlack = 'czarne'
 
-const sellerAnswer = prompt("What color is avalaible?")
+const sellerAnswer = prompt("Jaki jest dostępny kolor butów?")
 
 let canBuy
-if(sellerAnswer === preferedColorWhite || sellerAnswer === preferedColorBlack){
-   canBuy = true
+if (sellerAnswer === preferedColorWhite || sellerAnswer === preferedColorBlack) {
+    canBuy = true
 }
 
-if(canBuy) {
-    console.log("I got my favorite shoes")
+if (canBuy) {
+    console.log("Udało mi się zdobyć wymarzony kolor butów")
 } else {
-    console.log("I must continue my research")
+    console.log("Szukam butów dalej")
 }

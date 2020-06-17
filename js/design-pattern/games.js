@@ -19,13 +19,15 @@ class AAAPrice {
     name = 'aaa price'
     price = 250
     brandManager = "Marianna Srebrna"
-    publishers: ['EA', 'Microsoft']
+    publishers = ['EA', 'Microsoft']
     display = function() {
         return console.log(`osoba odpowiedzialna za segment ${this.name} to ${this.brandManager} (cena sugerowana to: ${this.price})`)
     }
 }
 
-
+/**
+ * @param 
+ */
 function games() {
     let games = []
 

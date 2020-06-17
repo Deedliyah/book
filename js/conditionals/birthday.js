@@ -1,18 +1,18 @@
-const birthday = 14
-const guess = prompt("Guess day of birth")
+const dayOfBirthday = 14
+const guess = prompt("Zgadnij dzień moich urodzin")
 
 let correct = false
 
-if(+guess === birthday) {
+if (+guess === dayOfBirthday) {
     correct = true
 }
 
-if(correct === true) {
-    console.log(`CORRECT!:D day of birth is ${birthday}`)
-    document.write("<h1>CORRECT!</h1>")
+if (correct === true) {
+    console.log(`Zgadłeś, dzień moich urodzin to: ${dayOfBirthday}`)
+    document.write("BRAWO!")
 }
 
-if(correct === false) {
-    console.log(`Not correct`)
-    document.write("<h1>nit</h1>")
+if (correct === false) {
+    console.log(`Zgaduj dalej`)
+    document.write("Odśwież stronę by spróbować jeszcze raz")
 }

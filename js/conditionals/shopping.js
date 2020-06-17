@@ -1,8 +1,8 @@
 const shoesSize = 39
 const price = 230
 
-const answerSize = prompt("What number of shoes do you get?")
-const answerPrice = prompt("How much is it cost?")
+const answerSize = prompt("Jaki jest dostępny rozmiar buta?")
+const answerPrice = prompt("Ile kosztuje?")
 
 let canBuy
 if(+answerSize === 39 && +answerPrice <= 230){
